@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.truefit",
+    "module": "truefit-android-sdk",
+    "version": "2.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "truefit-android-sdk-2.0.10.aar",
+          "url": "truefit-android-sdk-2.0.10.aar",
+          "size": 75045,
+          "sha512": "b4df981e74ebc164c736f9183d68e4a621c3c297df73e95454e2762658bf29396199ace0e348c901a32a85081355b2969985507910e064620ba8c6aa5d15194b",
+          "sha256": "0b285fce63afc0d8e7844286093e07c3abc178a3c026d13e0fa3a4807fbe74b6",
+          "sha1": "f81bfacd7afdd580fd78851086c4e67e3ee299f7",
+          "md5": "cddd6ecd59663ef7846131ead2d1432c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "truefit-android-sdk-2.0.10.aar",
+          "url": "truefit-android-sdk-2.0.10.aar",
+          "size": 75045,
+          "sha512": "b4df981e74ebc164c736f9183d68e4a621c3c297df73e95454e2762658bf29396199ace0e348c901a32a85081355b2969985507910e064620ba8c6aa5d15194b",
+          "sha256": "0b285fce63afc0d8e7844286093e07c3abc178a3c026d13e0fa3a4807fbe74b6",
+          "sha1": "f81bfacd7afdd580fd78851086c4e67e3ee299f7",
+          "md5": "cddd6ecd59663ef7846131ead2d1432c"
+        }
+      ]
+    }
+  ]
+}
